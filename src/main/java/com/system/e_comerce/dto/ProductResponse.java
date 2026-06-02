@@ -9,7 +9,7 @@ public record ProductResponse(
         String description,
         BigDecimal price,
         Integer stock,
-        Double averagerating,
+        Double averageRating,
         LocalDateTime createdAt
 ) {
 }
